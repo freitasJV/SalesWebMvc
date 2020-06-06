@@ -36,7 +36,12 @@ Visual Studio e Mysql
                     <li>Entre em serviços e procure por MySQL</li>
                     <li>Caso o serviço não esteja em execução inicie o mesmo</li>
                     <li>Inicie o MySQL Workbench e entre com os dados recém criados</li>
-                    <li>Foi utilizado a abordagem Code-First (banco de dados é gerado a partir das classes)</li>
+                    <li>Faça o clone do repositório na sua máquina</li>
+                    <li>Abra-o utilizando o Visual Studio</li>
+                    <li>Abra o Package Manager Console (View -> Other Windows -> Package Manager Console</li>
+                    <li>Execute o comando Update-Database (Para gerar a estrutura da base de dados)</li>
+                    <li>A inserção inicial de dados foi feita pela Classe SeedingService, que foi registrada no Startup</li>
+                    <li>Sendo assim execute o programa para fazer a inserção dos dados. Isso em ambiente de desenvolvimento e caso não tenha dados na base de dados, conforme as classes Startup e SeedingService</li>
                 </ul>
 <h1>Conceitos</h1>
-Foram utilizados conceitos de Orientação a Objetos, Delegação de Serviços, Injeção de dependência, Banco de dados SQL, Linq, padrão MVC, Entity Framework (ORM), Migrations e Bootstrap.
+Foram utilizados conceitos de Orientação a Objetos, Delegação de Serviços, Injeção de dependência, Banco de dados SQL, Linq, padrão MVC, Entity Framework (ORM), Migrations, Code-First(banco de dados é gerado a partir das classes) e Bootstrap.
